@@ -12,7 +12,7 @@ url='http://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/What
 license=('GPL')
 install=install
 source=(pulseaudio.service pulseaudio-system-wide.conf)
-md5sums=('2c5e2bf4d5d45cec9cc73de842243d29'
+md5sums=('7740ba866ecb74d708baaebb9328640d'
          'f182541bba87a6499110443ef2aa00b5')
 
 package() {
