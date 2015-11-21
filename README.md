@@ -11,9 +11,10 @@ Instructions
 1. Clone the repository
 2. $ makepkg
 3. # pacman -U *.xz
-4. # systemctl enable pulseaudio
-5. # systemctl start pulseaudio
-6. Add the user and root to the "pulse-access" group
+4. Add the user and root to the "pulse-access" group
+5. # systemctl enable pulseaudio
+6. Disable pulseaudio autostarting by the Desktop Environment.
+7. Reboot
 
 Credits
 -------
