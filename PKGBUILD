@@ -13,7 +13,7 @@ license=('GPL')
 install=install
 source=(pulseaudio.service pulseaudio-system-wide.conf)
 md5sums=('7740ba866ecb74d708baaebb9328640d'
-         'f182541bba87a6499110443ef2aa00b5')
+         '194fc7b6b88d81194fe4ae1a9ca0fff4')
 
 package() {
   install -m 644 -D pulseaudio.service "$pkgdir/"usr/lib/systemd/system/pulseaudio.service
